@@ -5,6 +5,7 @@ import {
   FooterCon,
   FooterLink,
   RedSpan,
+   GenerateQuoteButton, GenerateQuoteButtonText, QuoteGeneratorCon, QuoteGeneratorInnerCon, QuoteGeneratorSubTitle, QuoteGeneratorTitle,
 } from '@/components/QuoteGenerator/QuoteGeneratorElements'
 
 export default function Home() {
@@ -16,7 +17,26 @@ export default function Home() {
         <title>CHECK</title>
       </Head>
       <GradientBackgroundCon>
-        <FooterCon>
+
+
+      <QuoteGeneratorCon>
+        {/* <QuoteGeneratorInnerCon>
+            <QuoteGeneratorTitle>
+              Daily Inspiration Generator
+            </QuoteGeneratorTitle>
+
+            <QuoteGeneratorSubTitle>
+              Looking for a splash of inspiration? Generate a quote card with a random inspirational quote provided by <FooterLink href="https://zenquotes.io/" target="_blank" rel="noopener noreferrer">ZenQuotes API</FooterLink>.
+            </QuoteGeneratorSubTitle>
+
+            <GenerateQuoteButton onClick={null}>
+              <GenerateQuoteButtonText>
+                Make a Quote
+              </GenerateQuoteButtonText>
+            </GenerateQuoteButton>
+  </QuoteGeneratorInnerCon> */}
+        </QuoteGeneratorCon>
+        {/*<FooterCon>
           <>
             Quotes Generated: {numberOfQuotes}
             <br />
@@ -25,7 +45,7 @@ export default function Home() {
               @?
             </FooterLink>
           </>
-        </FooterCon>
+</FooterCon> */}
       </GradientBackgroundCon>
     </>
   );
