@@ -3,7 +3,6 @@ title: "Robust Realtime Data Integration and Streaming"
 subtitle: "Dive into the intricacies of building a comprehensive data engineering pipeline, covering data ingestion, processing, and storage.
 "
 date: "2023-11-10"
-cr: ["https://www.artstation.com/shizuorin"]
 ---
 
 ## Table of Contents
