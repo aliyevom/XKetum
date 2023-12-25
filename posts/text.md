@@ -6,7 +6,7 @@ date: "2023-10-12"
 cr: ["https://www.artstation.com/shizuorin"]
 ---
 
-
+SALAM
 This sample demonstrates the deployment of a [Cloud Run](https://cloud.run/) service with VPC [ingress controls] that restrict traffic exclusively to the Cloud HTTPS load balancer equipped with enabled [Identity Aware Proxy (IAP)][iap].
 
 [iap]: https://cloud.google.com/iap
