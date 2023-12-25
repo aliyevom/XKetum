@@ -1,11 +1,89 @@
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Source+Code+Pro:wght@200&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Global Styles */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+/* styles/globals.css */
+
+@import url('https://fonts.googleapis.com/css2?family=YourChosenFont&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/* Add any other global styles here */
+body {
+  background-color: #ced4da ;
 }
+/* globals.css or your global CSS file */
+.custom-header-style {
+    width: 656px;
+    height: 260px;
+    border: 2px solid #ffffff22;
+    border-radius: 15px;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 27px 39px 0 rgba(31, 38, 135, 0.37);
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 23px;
+  }
+  /* Responsive styles using media queries */
+@media (max-width: 768px) {
+  .custom-header-style {
+    width: 93%; /* Adjust the width for smaller screens */
+    height: 304px; /* Set the height for responsive mode */
+    border-radius: 15px; /* Adjust the border-radius for responsive mode */
+  }
+}
+
+  
+  .custom-header-container {
+    text-align: center;
+    background: #1f2933; /* Adjusted background color */
+    padding: 8px;
+    margin: 6px;
+    border-radius: 10px; /* Adjusted border-radius */
+  }
+  
+  /* styles/globals.css */
+
+.text-sm.text-slate-400 {
+  /* Your global styles for text-sm text-slate-400 */
+  font-family: 'Bungee Spice', sans-serif;
+
+  font-size: 14px;
+  color: #6b7280;
+  /* Add any other styles you want to apply globally */
+}
+
+  
+  /* Additional styling for your h1 */
+  .text-5xl {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 1rem;
+  }  
+
+
+
+  .text-slate-400 {
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 14px;
+    color: #6b7280;
+    /* Add any other styles you want to apply globally */
+  }
+
+  .text-slate-600 {
+    font-family: 'Cinzel';
+    font-size: 34px;
+    color: #16191e
+    ; /* Creamy strong white color */
+    /* Add any other styles you want to apply globally */
+  }
+  
+  .ttext-slate-400{
+    font-family: 'Cinzel';
+
+  }

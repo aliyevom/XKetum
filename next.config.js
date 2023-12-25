@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
+  swcMinify: true,
+  experimental: {
+    appDir: true,
+  },
   compiler: {
     // see https://styled-components.com/docs/tooling#babel-plugin for more info on the options.
     styledComponents: {
@@ -27,7 +31,6 @@ const nextConfig = {
       pure: false,
     },
   },
-}
+};
 
-
-module.exports = nextConfig
+module.exports = nextConfig;
