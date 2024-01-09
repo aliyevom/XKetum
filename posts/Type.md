@@ -2,7 +2,7 @@
 title: "AWS Amazon S3 to SQS to AWS Lambda"
 subtitle: "Create a Lambda Function for Image Resizing on S3 Uploads via SQS Notifications.
 "
-date: "Sep 8, 2023."
+date: "Sep 8, 2023"
 
 ---
 
