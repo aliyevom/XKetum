@@ -2,7 +2,8 @@
 title: "Robust Realtime Data Integration and Streaming"
 subtitle: "Dive into the intricacies of building a comprehensive data engineering pipeline, covering data ingestion, processing, and storage.
 "
-date: "2023-11-10"
+date: "Nov 10, 2023."
+
 ---
 
 ## Table of Contents
