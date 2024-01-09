@@ -2,7 +2,8 @@
 title: "IAP Terraform Example for Cloud Run"
 subtitle: "Securing Cloud Run Deployment with VPC Ingress Controls, Identity Aware Proxy (IAP), and OAuth2: A Step-by-Step Guide using Terraform.
 "
-date: "2023-10-12"
+date: "Oct 12, 2023."
+
 ---
 
 
